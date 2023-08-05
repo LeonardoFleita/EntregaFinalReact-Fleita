@@ -1,0 +1,34 @@
+.mainDark {
+  background-color: #282828;
+  .cardItemDetail {
+    background-color: #5a5a5a;
+    color: white;
+    .datosIzqItemDetail {
+      h3 {
+        color: white;
+      }
+    }
+    .datosDerItemDetail {
+      h2 {
+        color: white;
+      }
+    }
+  }
+  .checkoutFormContainer {
+    background-color: #5a5a5a;
+    color: white;
+    form {
+      label {
+        color: white;
+      }
+    }
+  }
+  .cartContainer {
+    background-color: #5a5a5a;
+    color: white;
+  }
+  .buyOrderContainer {
+    background-color: #5a5a5a;
+    color: white;
+  }
+}

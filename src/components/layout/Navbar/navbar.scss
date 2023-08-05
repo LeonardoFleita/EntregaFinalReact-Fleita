@@ -1,0 +1,55 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
+  border-bottom: 1px solid black;
+  height: 4rem;
+  padding: 0 1rem 0 1rem;
+  align-items: center;
+  .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    h2 {
+      padding-left: 1rem;
+    }
+    &:hover {
+      color: orange;
+    }
+  }
+  .categories {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+    .navLink {
+      text-decoration: none;
+      margin: 0 1rem 0 1rem;
+      &:hover {
+        color: orange;
+        border-bottom: 2px solid orange;
+      }
+    }
+  }
+  .carrito {
+    margin-left: 8rem;
+  }
+}
+.navbarDark {
+  background-color: #1e1e1e;
+  color: white;
+  .logo {
+    &:hover {
+      color: #00b2b6;
+    }
+  }
+  .categories {
+    .navLink {
+      &:hover {
+        color: #00b2b6;
+        border-bottom: 2px solid #00b2b6;
+      }
+    }
+  }
+}

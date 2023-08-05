@@ -1,0 +1,67 @@
+main {
+  .cardItemDetail {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 50rem;
+    margin: 0rem;
+    padding: 1rem;
+    &:hover {
+      box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.25);
+    }
+    .datosIzqItemDetail {
+      border-right: solid 1px rgb(150, 150, 150);
+      width: 35rem;
+      padding: 2rem 2rem 2rem 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      img {
+        width: 30rem;
+        margin-bottom: 1rem;
+      }
+      h3 {
+        color: #262626;
+        font-weight: 400;
+        width: 30rem;
+      }
+    }
+    .datosDerItemDetail {
+      display: flex;
+      flex-direction: column;
+      margin-left: 1.5rem;
+      h1 {
+        padding: 0;
+        font-weight: 400;
+      }
+      h2 {
+        margin: 0.5rem 0 0.5rem 0;
+        color: #262626;
+      }
+      .itemCountCounterContainer {
+        display: flex;
+        flex-direction: column;
+        .itemCountCounter {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          .itemCountCounterButton {
+            min-width: 30px;
+            height: 30px;
+            padding: 2px;
+          }
+        }
+        .itemDetailAgregarButton {
+          font-weight: 400;
+          font-size: 0.8rem;
+          padding: 0.4rem;
+          margin-top: 1rem;
+        }
+      }
+    }
+  }
+}

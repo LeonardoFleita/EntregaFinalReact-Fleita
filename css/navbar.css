@@ -1,0 +1,35 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
+  border-bottom: 1px solid black;
+}
+nav .logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+nav .logo h2 {
+  padding-left: 1rem;
+}
+nav .logo:hover {
+  color: orange;
+}
+nav .categories {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+}
+nav .categories .navLink {
+  text-decoration: none;
+  margin: 0 1rem 0 1rem;
+}
+nav .categories .navLink:hover {
+  color: orange;
+  border-bottom: 2px solid orange;
+}
+nav .carrito {
+  margin-left: 8rem;
+}/*# sourceMappingURL=navbar.css.map */
