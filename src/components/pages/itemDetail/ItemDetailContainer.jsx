@@ -31,6 +31,7 @@ const ItemDetailContainer = () => {
       quantity: cantidad,
     };
     addToCart(data);
+    let mode = dark ? "dark" : "light";
     toast.success("Producto agregado al carrito!", {
       position: "bottom-right",
       autoClose: 2000,
@@ -39,7 +40,7 @@ const ItemDetailContainer = () => {
       pauseOnHover: true,
       draggable: true,
       progress: undefined,
-      theme: "light",
+      theme: mode,
     });
   };
 

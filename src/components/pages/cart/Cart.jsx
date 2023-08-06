@@ -36,7 +36,9 @@ const Cart = ({ cart, deleteById, limpiar, finalPrice, dark, theme }) => {
                         onClick={() => deleteById(el.id)}
                         aria-label="delete"
                       >
-                        <DeleteIcon />
+                        <DeleteIcon
+                          sx={dark ? { color: "white" } : { color: "grey" }}
+                        />
                       </IconButton>
                     </td>
                   </tr>

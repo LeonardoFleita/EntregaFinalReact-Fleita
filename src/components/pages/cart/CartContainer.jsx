@@ -24,24 +24,18 @@ const CartContainer = () => {
       confirmButtonText: "Limpiar",
     }).then((result) => {
       if (result.isConfirmed) {
-        Swal.fire("Carrito ", "", "success");
+        Swal.fire("Carrito vacío", "", "success");
         clearCart();
       }
     });
   };
 
   if (!cart.length) {
-    Swal.fire({
-      icon: "warning",
-      title: "Carrito vacío",
-      text: "Será redireccionado al inicio!",
-    }).then((res) => {
-      navigate("/");
-    });
-
     return (
-      <main className="cartMain">
-        <article className="cartContainer"></article>
+      <main className={!dark ? "mainLight" : "mainDark"}>
+        <article className="cartContainerEmpty">
+          <h2>Carrito Vacío</h2>
+        </article>
       </main>
     );
   } else {

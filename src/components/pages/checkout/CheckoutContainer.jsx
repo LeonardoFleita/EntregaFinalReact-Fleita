@@ -60,6 +60,10 @@ const CheckoutContainer = () => {
       email: Yup.string()
         .email("el email no es válido")
         .required("el email es requerido"),
+      repeat: Yup.string()
+        .required("el email es requerido")
+        .email("el email no es válido")
+        .oneOf([Yup.ref("email")], "Las direcciones de correo no coinciden"),
     }),
 
     validateOnChange: false,

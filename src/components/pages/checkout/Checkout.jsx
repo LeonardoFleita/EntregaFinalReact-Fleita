@@ -56,6 +56,16 @@ const Checkout = ({ handleS, handleC, errors, dark, theme }) => {
                 sx={{ marginLeft: "1rem" }}
                 color={!dark ? "primary" : "secondary"}
               />
+              <TextField
+                label="Repetir e-mail"
+                name="repeat"
+                variant="standard"
+                onChange={handleC}
+                error={!errors.repeat ? false : true}
+                helperText={errors.repeat}
+                size="small"
+                color={!dark ? "primary" : "secondary"}
+              />
             </div>
             <Button
               type="submit"

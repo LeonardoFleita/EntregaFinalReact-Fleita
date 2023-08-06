@@ -47,4 +47,17 @@ main {
       margin-bottom: 0.5rem;
     }
   }
+  .cartContainerEmpty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    width: 37rem;
+    margin: 0rem;
+    padding: 1rem;
+    &:hover {
+      box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.25);
+    }
+  }
 }

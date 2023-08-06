@@ -3,7 +3,7 @@ import CartWidget from "../../common/cartWidget/CartWidget";
 import PedalBikeIcon from "@mui/icons-material/PedalBike";
 import { useContext } from "react";
 import { Link } from "react-router-dom";
-import ModeNightIcon from "@mui/icons-material/ModeNight";
+import Brightness4Icon from "@mui/icons-material/Brightness4";
 import Brightness5Icon from "@mui/icons-material/Brightness5";
 import { Button, ThemeProvider } from "@mui/material";
 
@@ -45,7 +45,7 @@ const Navbar = () => {
             onClick={handleClickTheme}
             color={!dark ? "primary" : "secondary"}
           >
-            {dark ? <Brightness5Icon /> : <ModeNightIcon />}
+            {dark ? <Brightness5Icon /> : <Brightness4Icon />}
           </Button>
           <Link to="/cart">
             <CartWidget />
