@@ -1,38 +1,40 @@
-main {
-  .cardItemDetail {
-    background-color: white;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    border-radius: 5px;
-    width: 50rem;
-    margin: 0rem;
-    padding: 1rem;
-    &:hover {
-      box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.25);
+@media (min-width: 300px) {
+  main {
+    .cardItemDetail {
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border-radius: 5px;
+      width: 15rem;
+      margin: 0rem;
+      padding: 1rem;
+      &:hover {
+        box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.25);
+      }
     }
     .datosIzqItemDetail {
-      border-right: solid 1px rgb(150, 150, 150);
-      width: 35rem;
-      padding: 2rem 2rem 2rem 0;
+      border-bottom: solid 1px rgb(150, 150, 150);
+      width: 10rem;
+      padding: 1rem 1rem 1rem 1rem;
       display: flex;
       flex-direction: column;
       align-items: center;
       img {
-        width: 30rem;
+        width: 10rem;
         margin-bottom: 1rem;
       }
       h3 {
         color: #262626;
         font-weight: 400;
-        width: 30rem;
+        width: 10rem;
       }
     }
     .datosDerItemDetail {
       display: flex;
       flex-direction: column;
-      margin-left: 1.5rem;
+      margin-top: 1rem;
       h1 {
         padding: 0;
         font-weight: 400;
@@ -61,6 +63,51 @@ main {
           padding: 0.4rem;
           margin-top: 1rem;
         }
+      }
+    }
+  }
+}
+
+@media (min-width: 500px) {
+  main {
+    .cardItemDetail {
+      width: 20rem;
+      .datosIzqItemDetail {
+        width: 15rem;
+        img {
+          width: 15rem;
+          margin-bottom: 1rem;
+        }
+        h3 {
+          color: #262626;
+          font-weight: 400;
+          width: 15rem;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 900px) {
+  main {
+    .cardItemDetail {
+      flex-direction: row;
+      width: 50rem;
+      .datosIzqItemDetail {
+        border-right: solid 1px rgb(150, 150, 150);
+        border-bottom: none;
+        width: 35rem;
+        padding: 2rem 2rem 2rem 0;
+        img {
+          width: 30rem;
+        }
+        h3 {
+          width: 30rem;
+        }
+      }
+      .datosDerItemDetail {
+        margin-left: 1.5rem;
+        margin-top: 0rem;
       }
     }
   }

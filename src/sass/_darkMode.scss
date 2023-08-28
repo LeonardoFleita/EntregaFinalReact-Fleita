@@ -1,8 +1,7 @@
 .mainDark {
   background-color: #282828;
   .cardItemDetail {
-    background-color: #5a5a5a;
-    color: white;
+    @include darkMode;
     .datosIzqItemDetail {
       h3 {
         color: white;
@@ -15,8 +14,7 @@
     }
   }
   .checkoutFormContainer {
-    background-color: #5a5a5a;
-    color: white;
+    @include darkMode;
     form {
       label {
         color: white;
@@ -24,11 +22,12 @@
     }
   }
   .cartContainer {
-    background-color: #5a5a5a;
-    color: white;
+    @include darkMode;
+  }
+  .cartContainerEmpty {
+    @include darkMode;
   }
   .buyOrderContainer {
-    background-color: #5a5a5a;
-    color: white;
+    @include darkMode;
   }
 }

@@ -19,7 +19,6 @@ const Checkout = ({ handleS, handleC, errors, dark, theme }) => {
                 size="small"
                 color={!dark ? "primary" : "secondary"}
               />
-
               <TextField
                 type="text"
                 label="Apellido"
@@ -29,7 +28,7 @@ const Checkout = ({ handleS, handleC, errors, dark, theme }) => {
                 error={!errors.apellido ? false : true}
                 helperText={errors.apellido}
                 size="small"
-                sx={{ marginLeft: "1rem" }}
+                className="withMargin"
                 color={!dark ? "primary" : "secondary"}
               />
             </div>
@@ -53,7 +52,7 @@ const Checkout = ({ handleS, handleC, errors, dark, theme }) => {
                 error={!errors.email ? false : true}
                 helperText={errors.email}
                 size="small"
-                sx={{ marginLeft: "1rem" }}
+                className="withMargin"
                 color={!dark ? "primary" : "secondary"}
               />
               <TextField

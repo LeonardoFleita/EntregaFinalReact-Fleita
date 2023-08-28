@@ -3,7 +3,7 @@
 ## _Entrega final React - Leonardo Fleita_
 
 Para este trabajo he realizado la simulación de un e-comerce que vende bicicletas.
-En el sitio usted puede
+En el sitio usted puede:
 
 - Ver los productos que ofrece el sitio y filtrarlos por categorías
 - Obtener un detalle del producto
@@ -13,7 +13,7 @@ En el sitio usted puede
 
 ## Tecnologías y librerías
 
-El sitio fue realizado con [Vite](https://vitejs.dev/) + [React](https://react.dev/) y se utilizaron las siguientes librerías
+El sitio fue realizado con [Vite](https://vitejs.dev/) + [React](https://react.dev/) y se utilizó Firestore de [Firebase](https://firebase.google.com/?gad=1&gclid=CjwKCAjwxOymBhAFEiwAnodBLAICJAAbj1gIPLg0oPBzyhKV7AmZTAIAe0tsknMmcxwrcqByVL9sCBoCgBwQAvD_BwE&gclsrc=aw.ds&hl=es-419) como base de datos para almacenar productos y órdenes de compra. A su vez se utilizaron las siguientes librerías:
 
 - [Material UI](https://mui.com/)
 - [SweetAlert 2](https://sweetalert2.github.io/#download)

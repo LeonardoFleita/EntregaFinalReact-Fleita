@@ -6,6 +6,7 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+
 a,
 a:visited,
 a:link,
@@ -25,4 +26,9 @@ main {
 
 .mainLight {
   background-color: rgb(230, 230, 230);
+}
+
+@mixin darkMode {
+  background-color: #5a5a5a;
+  color: white;
 }
