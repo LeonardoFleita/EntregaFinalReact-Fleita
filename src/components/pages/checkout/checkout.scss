@@ -37,18 +37,3 @@
     }
   }
 }
-
-@media (min-width: 900px) {
-  main {
-    .checkoutFormContainer {
-      width: 26rem;
-      form {
-        .checkoutCampo {
-          .withMargin {
-            margin-left: 1rem;
-          }
-        }
-      }
-    }
-  }
-}
