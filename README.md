@@ -2,14 +2,14 @@
 
 ## _Entrega final React - Leonardo Fleita_
 
-Para este trabajo he realizado la simulación de un e-comerce que vende bicicletas.
-En el sitio usted puede:
+Ciclo Store es la simulación de un e-comerce que vende bicicletas.
+El sitio cuenta con:
 
-- Ver los productos que ofrece el sitio y filtrarlos por categorías
-- Obtener un detalle del producto
-- Agregar productos al carrito
-- Comprar y generar una orden de compra
-- A su vez puede cambiar el estilo de la página a modo oscuro
+- Un filtro de productos por categoría (tipo de bicicleta).
+- Una vista detallada del producto, desde la que se puede agregar dicho producto al carrito seleccionando la cantidad de unidades deseadas.
+- Un carrito de compras en donde se pueden eliminar productos de manera individual, o limpiar el carrito en su totalidad, y realizar la compra.
+- Un formulario en donde el comprador se registra para finalizar la compra y obtener su número de orden.
+- Un botón que permite alternar la vista del sitio entre modo claro y modo oscuro.
 
 ## Tecnologías y librerías
 
@@ -18,5 +18,9 @@ El sitio fue realizado con [Vite](https://vitejs.dev/) + [React](https://react.d
 - [Material UI](https://mui.com/)
 - [SweetAlert 2](https://sweetalert2.github.io/#download)
 - [React-tostify](https://www.npmjs.com/package/react-toastify)
+- [Formik](https://formik.org)
+- [Yup](https://www.npmjs.com/package/yup)
 
-Espero que mi proyecto le parezca atractivo, puede ver más de mis trabajos ingresando a mi [github](https://github.com/LeonardoFleita) y en caso que desee contactarse conmigo puede hacerlo a través de mi [linkedIn](https://www.linkedin.com/in/leonardo-fleita/)
+##
+
+Para ver más de mis trabajos puede ingresar a mi perfil de [github](https://github.com/LeonardoFleita) y en caso que desee contactarse conmigo puede hacerlo a través de mi [linkedIn](https://www.linkedin.com/in/leonardo-fleita/)
